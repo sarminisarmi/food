@@ -1,0 +1,198 @@
+*{
+    --primary-color: #A82C4B;
+   --secondary-color: #43121d;
+     --third-color: #f98169;
+      --white-color: #fff;
+      --text-color: #555;
+      --text-gray: #999;
+      --black-color: #000;
+      --primary-font: 'Robot', sans-serif;
+      --secondary-font: 'Quicksand', sans-serif;
+  
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .hero-text h1 {
+    font-weight: bold;
+    color: #4B2E2E;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .btnbrown {
+    background-color: rgb(198, 31, 103);
+    color: rgb(198, 31, 103);
+    margin-right: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .btnbrown:hover {
+    background-color:#c51244;
+  }
+  
+  .btnwhite {
+    background-color: white;
+    color:rgb(198, 31, 103);
+    
+    border: 2px solid#c51244;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .btnwhite:hover {
+    background-color:rgb(198, 31, 103);
+    color: white;
+  }
+  
+  .hero-image img {
+    max-width: 190%;
+    height: 100px;
+    
+    border-radius: 15px;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+  }
+  
+  .nav-link {
+    color:rgb(145, 11, 58); !important;
+  }
+  
+  .login-btn {
+    background-color:rgb(145, 11, 58); !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .bg-image {
+    background-image: url(./bg/bg-1.jpg);
+    height: 100vh;
+    background-position: -85px;
+  }
+  
+  .btnbrown {
+    background-color:rgb(145, 11, 58);!important;
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .btnwhite {
+    background-color: #fff !important;
+    color: rgb(8, 8, 8) !important;
+    border-color: rgb(145, 11, 58);
+  }
+  
+  #home p,
+  h1 {
+    justify-content: center;
+  
+  }
+  
+  .barnum {
+    background:rgb(145, 11, 58);
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .barnum h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about,
+  .section5 {
+    padding: 60px 0;
+  }
+  
+  .about h2,
+  .section5 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .section6 {
+    background: #bce5e5;
+    color:rgb(145, 11, 58);
+    padding-left: 40px;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./bg/bg-2.jpg);
+  
+  
+    height: 40vh;
+  
+    background-size: 1900px 500px;
+  
+    background-position: center;
+  
+  }
+  
+  /* 7 */
+  
+  
+  .section7 {
+    padding: 60px 0;
+  }
+  
+  .section7 h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  .section8 {
+    background: #b2b3c8;
+    padding: 60px 0;
+  }
+  
+  .section8 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background:rgb(145, 11, 58);
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .list-inline {
+    margin-bottom: 10px;
+  }
+  
+  footer .list-inline-item {
+    margin-right: 10px;
+  }
+  
+  .old{
+    text-decoration: line-through;
+  }
+  
+  
